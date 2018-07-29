@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Page Object Model with PageFactory]">
+  <listeners>
+    <listener class-name="listener.CustomListeners"/>
+    <listener class-name="listener.ExtentReporterNG"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Login With Email">
+    <classes>
+      <class name="testcases.careios.CareLoginTest"/>
+    </classes>
+  </test> <!-- Login With Email -->
+  <test name="Add a Tutor Test">
+    <classes>
+      <class name="testcases.careios.AddATutorTest"/>
+    </classes>
+  </test> <!-- Add a Tutor Test -->
+</suite> <!-- Failed suite [Page Object Model with PageFactory] -->

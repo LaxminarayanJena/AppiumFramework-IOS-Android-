@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Page Object Model with PageFactory" duration-ms="43220" started-at="2017-03-21T16:39:10Z" finished-at="2017-03-21T16:39:54Z">
+    <groups>
+    </groups>
+    <test name="Login With Email" duration-ms="5066" started-at="2017-03-21T16:39:10Z" finished-at="2017-03-21T16:39:15Z">
+      <class name="testcases.careios.CareLoginTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:testcases.careios.CareLoginTest@6ddfbf22]" name="init" is-config="true" duration-ms="247" started-at="2017-03-21T22:09:10Z" finished-at="2017-03-21T22:09:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="signUpEmailandSelectACareGiver(java.lang.String)[pri:0, instance:testcases.careios.CareLoginTest@6ddfbf22]" name="signUpEmailandSelectACareGiver" duration-ms="4790" started-at="2017-03-21T22:09:11Z" data-provider="getData" finished-at="2017-03-21T22:09:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[I AM LOOKING FOR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpEmailandSelectACareGiver -->
+      </class> <!-- testcases.careios.CareLoginTest -->
+    </test> <!-- Login With Email -->
+    <test name="Add a Tutor Test" duration-ms="37909" started-at="2017-03-21T16:39:16Z" finished-at="2017-03-21T16:39:54Z">
+      <class name="testcases.careios.AddATutorTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.careios.AddATutorTest@49db1ee0]" name="setUp" is-config="true" duration-ms="17754" started-at="2017-03-21T22:08:53Z" finished-at="2017-03-21T22:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:testcases.careios.AddATutorTest@49db1ee0]" name="init" is-config="true" duration-ms="6" started-at="2017-03-21T22:09:16Z" finished-at="2017-03-21T22:09:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="AddATutor(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.careios.AddATutorTest@49db1ee0]" name="AddATutor" duration-ms="37899" started-at="2017-03-21T22:09:16Z" data-provider="getData" finished-at="2017-03-21T22:09:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[trainer@way2automation.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sdfusdfsf]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rahul]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[arora]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[14/01/1985]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddATutor -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.careios.AddATutorTest@49db1ee0]" name="tearDown" is-config="true" duration-ms="3508" started-at="2017-03-21T22:09:54Z" finished-at="2017-03-21T22:09:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.careios.AddATutorTest -->
+    </test> <!-- Add a Tutor Test -->
+  </suite> <!-- Page Object Model with PageFactory -->
+</testng-results>
